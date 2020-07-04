@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.productdetails.ProductdetailsFragment">
+
+    <ScrollView android:id="@+id/scrollbar"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9.5"
+        android:scrollbars="none"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/image47"
+            android:layout_width="match_parent"
+            android:layout_height="200.0dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/image47" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/activity_vertical_margin"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                android:orientation="vertical">
+
+
+                <RelativeLayout
+                    android:id="@+id/relativeLayout1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_alignParentLeft="true"
+                    >
+                    <TextView android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:inputType="textMultiLine"
+                        android:width="200dp"
+                        android:text="Hooded jumpsuit, rustic with front print"
+                        android:textSize="16dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/gen_black"/>
+
+
+
+
+                    <LinearLayout
+                        android:layout_width="70dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:orientation="vertical">
+
+                    <RatingBar
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        style= "@style/CustomRatingBar"
+                        android:id="@+id/ratingBar"
+                        android:numStars="5"
+                        android:stepSize="0.01"
+                        android:layout_alignParentRight="true"
+                        android:isIndicator="true"/>
+
+                        <TextView android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:inputType="textMultiLine"
+                            android:width="200dp"
+                            android:text="12 Reviews"
+                            android:layout_marginTop="10dp"
+                            android:textSize="12dp"
+                            android:textStyle="bold"
+                            android:layout_alignParentRight="true"
+                            android:textColor="#222"/>
+
+                    </LinearLayout>
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:background="#e3e3e3"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/activity_vertical_margin"
+                android:orientation="vertical">
+
+
+                <RelativeLayout
+                    android:id="@+id/relativeLayout2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                    android:layout_marginRight="@dimen/activity_horizontal_margin"
+                    android:layout_alignParentLeft="true"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/text_view_original_cash_amount"
+                            android:text="AED 13,084.50"
+                            android:textSize="12dp"
+                            android:foreground="@drawable/strike_through"
+                            android:textColor="@color/gen_black"/>
+
+
+
+
+                        <TextView android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="AED 12,084.50"
+                        android:textSize="16dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/gen_black"/>
+
+                    </LinearLayout>
+
+
+                    <Button
+                        android:id="@+id/btnApply"
+                        style="?android:attr/buttonStyleSmall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Size Chart"
+                        android:textSize="12dp"
+                        android:width="100dp"
+                        android:textColor="#ffffff"
+                        android:background="@drawable/button_bg_black"
+                        android:layout_alignParentRight="true"/>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/relativeLayout6"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                android:layout_marginTop="18dp"
+                android:layout_alignParentLeft="true"
+                >
+
+                <LinearLayout
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:orientation="vertical">
+
+            <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Color"
+                android:layout_marginBottom="5dp"
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:textColor="@color/gen_black" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/button1"
+                        style="?android:attr/buttonStyleSmall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/cirlce_01" />
+
+                    <TextView android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Black"
+                        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                        android:textStyle="bold"
+                        android:textSize="12dp"
+                        android:textColor="@color/gen_black"
+                        android:gravity="center_vertical" />
+
+                </LinearLayout>
+
+
+
+                </LinearLayout>
+
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:orientation="vertical">
+
+                    <TextView android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Sizes"
+                        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                        android:layout_marginRight="@dimen/activity_horizontal_margin"
+                        android:textStyle="bold"
+                        android:textSize="16dp"
+                        android:layout_marginBottom="5dp"
+                        android:textColor="@color/gen_black" />
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                    android:orientation="horizontal" >
+
+                    <Button
+                        android:id="@+id/buttonXS"
+                        style="?android:attr/buttonStyleSmall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="XS"
+                        android:textSize="20dp"
+                        android:layout_marginRight="7dp"
+                        android:layout_marginBottom="10dp"
+                        android:textColor="#8a8a8f"
+                        android:background="@drawable/cirlce_grey" />
+
+                    <Button
+                        android:id="@+id/buttonS"
+                        style="?android:attr/buttonStyleSmall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="S"
+                        android:textColor="#8a8a8f"
+                        android:textSize="20dp"
+                        android:layout_marginRight="7dp"
+                        android:background="@drawable/cirlce_grey" />
+
+                    <Button
+                        android:id="@+id/buttonM"
+                        style="?android:attr/buttonStyleSmall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="M"
+                        android:textColor="#8a8a8f"
+                        android:textSize="20dp"
+                        android:layout_marginRight="7dp"
+                        android:background="@drawable/cirlce_grey" />
+
+                </LinearLayout>
+
+
+
+
+                </LinearLayout>
+
+
+
+        </RelativeLayout>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:orientation="vertical">
+
+
+            <TextView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textMultiLine"
+                android:id="@+id/txt5"
+                android:text="The Ginger Waistcoat is an evolution of our top-selling Ginsberg suit, the iconic burgundy and navy tartan has been upgraded to bigger scale. Still ..."
+                android:textSize="12dp"
+                android:textColor="#222222"/>
+
+
+            <Button android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:id="@+id/textBrand8"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#fff"
+                android:text="ADD TO BAG"
+                android:padding="10dp"
+                android:background="@drawable/textview_background_black"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="20dp"
+                />
+
+        </LinearLayout>
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
